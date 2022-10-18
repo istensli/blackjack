@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Blackjack2</title>
+
+    <link href="style.css" type="text/css" rel="stylesheet">
+    
+
+
+    
+</head>
+<body>
+   
+
+    <h1>Blackjack2</h1>
+
+    <p>Hvor mye penger satser du?</p>
+    <input type="number" id="bet">
+    <button onclick="getBet()">Bet</button>
+
+    <div id="money"></div>
+    <div id="dealer-money"></div>
+
+    <p>Player:</p>
+
+    <div id="cards-el"></div>
+	<div id="info-el"></div>
+    <div id="alive-el"></div>
+
+    <br>
+    <p>Dealer:</p>
+
+    <div id="dealer-cards-el"></div>
+    <div id="dealer-info-el"></div>
+    <div id="dealer-alive-el"></div>
+
+    
+
+    
+    <button onclick="newDeck()">New Deck</button>
+    <button onclick="startGame()">Start Game</button>
+    <button onclick="newCard()">New card</button>
+
+    <button onclick="startDealer()">Start dealer</button>
+
+    <br>
+
+    <div id="vinner-el"></div>
+	
+
+
+
+
+
+    
+    <script src="blackjack.js"></script>
+    
+</body>
+</html>

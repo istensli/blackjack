@@ -1,0 +1,24 @@
+body {
+    color: goldenrod;
+    background-color: green;
+}
+
+div {
+    color: white;
+    border: 1px solid red;
+}
+
+
+
+button {
+    background-color: goldenrod;
+    color: green;
+    width: 150px;
+    height: 40px;
+}
+
+#vinner-el {
+    font-size: xx-large;
+    color: white;
+
+}
